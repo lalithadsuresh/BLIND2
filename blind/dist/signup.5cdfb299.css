@@ -1,0 +1,213 @@
+@keyframes shadow-inset-center {
+  0% {
+    box-shadow: inset 0 0 #0000;
+  }
+
+  to {
+    box-shadow: inset 0 0 14px #00000080;
+  }
+}
+
+.email {
+  width: 278px;
+  height: 46px;
+  display: inline-block;
+  position: absolute;
+  top: 346px;
+  left: 50px;
+}
+
+.frame-child {
+  background-color: var(--color-darkslateblue);
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ri-arrow-right-line-icon {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 11px;
+  left: 11px;
+  overflow: hidden;
+}
+
+.ellipse-parent {
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
+  background-color: #0000;
+  border: 0;
+  padding: 0;
+  position: absolute;
+  top: 656px;
+  left: 244px;
+}
+
+.ellipse-parent:active {
+  opacity: 1;
+  animation: 1s infinite shadow-inset-center;
+}
+
+.frame-item {
+  width: 289px;
+  height: 40px;
+  position: absolute;
+  top: 636px;
+  left: 44px;
+  overflow: hidden;
+}
+
+.fram-1, .fram-1:hover {
+  background-color: var(--color-white);
+  box-sizing: border-box;
+}
+
+.fram-1 {
+  border: 3px solid var(--color-black);
+  border-radius: var(--br-4xs);
+  width: 280px;
+  height: 53px;
+  position: absolute;
+  top: 266px;
+  left: 42px;
+}
+
+.fram-1:hover {
+  border: 3px solid var(--color-white);
+  box-shadow: 0 4px 4px #352d2d40;
+}
+
+.fram-1:active {
+  opacity: 1;
+  animation: 1s infinite shadow-inset-center;
+}
+
+.frame-inner {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+.password {
+  width: 178px;
+  height: 43px;
+  display: inline-block;
+  position: absolute;
+  top: 476px;
+  left: 50px;
+}
+
+.fram-11, .fram-11:hover {
+  background-color: var(--color-white);
+  box-sizing: border-box;
+}
+
+.fram-11 {
+  border: 3px solid var(--color-black);
+  border-radius: var(--br-4xs);
+  width: 280px;
+  height: 53px;
+  position: absolute;
+  top: 534px;
+  left: 42px;
+}
+
+.fram-11:hover {
+  border: 3px solid var(--color-white);
+  box-shadow: 0 4px 4px #352d2d40;
+}
+
+.fram-11:active {
+  opacity: 1;
+  animation: 1s infinite shadow-inset-center;
+}
+
+.blind1 {
+  font-size: var(--font-size-61xl);
+  width: 297px;
+  height: 107px;
+  top: 53px;
+  left: 52px;
+}
+
+.blind1, .sign-up, .sign-up1 {
+  display: inline-block;
+  position: absolute;
+}
+
+.sign-up {
+  color: #db0c0c;
+  width: 176px;
+  height: 30px;
+  top: 131px;
+  left: 52px;
+}
+
+.sign-up1 {
+  width: 140px;
+  height: 68px;
+  top: 662px;
+  left: 74px;
+}
+
+.fram-12, .fram-12:hover {
+  background-color: var(--color-white);
+  box-sizing: border-box;
+}
+
+.fram-12 {
+  border: 3px solid var(--color-black);
+  border-radius: var(--br-4xs);
+  width: 280px;
+  height: 53px;
+  position: absolute;
+  top: 407px;
+  left: 42px;
+}
+
+.fram-12:hover {
+  border: 3px solid var(--color-white);
+  box-shadow: 0 4px 4px #352d2d40;
+}
+
+.fram-12:active {
+  opacity: 1;
+  animation: 1s infinite shadow-inset-center;
+}
+
+.email-parent {
+  width: 390px;
+  height: 844px;
+  position: absolute;
+  top: 0;
+  left: -3px;
+  overflow: hidden;
+}
+
+.phone-number {
+  width: 278px;
+  height: 37px;
+  display: inline-block;
+  position: absolute;
+  top: 203px;
+  left: 48px;
+}
+
+.iphone-14-21 {
+  background-color: var(--color-white);
+  width: 100%;
+  height: 844px;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+  position: relative;
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=signup.5cdfb299.css.map */
